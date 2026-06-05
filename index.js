@@ -16,7 +16,7 @@ const DOMAIN = process.env.DOMAIN || '';       // 填写项目域名或已反代
 const AUTO_ACCESS = process.env.AUTO_ACCESS || true;       // 是否开启自动访问保活,false为关闭,true为开启,需同时填写DOMAIN变量
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8);     // 节点路径，默认获取uuid前8位
 const SUB_PATH = process.env.SUB_PATH || 'hgdy';            // 获取节点的订阅路径
-const NAME = process.env.NAME || 'Hgws';                       // 节点名称
+const NAME = process.env.NAME || 'hgw';                       // 节点名称
 const PORT = process.env.PORT || 7866;                     // http和ws服务端口
 
 let ISP = '';
